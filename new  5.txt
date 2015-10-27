@@ -1,0 +1,26 @@
+<html>
+<head>
+<style type="text/css">
+h2.pos_left
+{
+position:relative;
+left:-20px
+}
+h2.pos_right
+{
+position:relative;
+left:20px
+}
+
+</style>
+</head>
+
+<body>
+<h2>This is normal position</h2>
+<h2 class="pos_left">This is to left to normal position</h2>
+<h2 class="pos_right">This is to right to normal position</h2>
+<p>relative position will be offset to the orignal position.</p>
+<p> style "left: -20px" </p>
+<p> style "left:  20px" </p>
+
+</body>
